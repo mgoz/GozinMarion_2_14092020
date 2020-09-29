@@ -420,9 +420,11 @@ footer{
   background-color: #ededed;
 }
 
-footer h2{
+footer .title-footer{
 
-  padding-left: 0px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 footer li{
@@ -466,6 +468,13 @@ footer li{
 
   .voir-plus a{
     text-align: left;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: space-evenly;
+    margin: 0;
   }
 }
 
