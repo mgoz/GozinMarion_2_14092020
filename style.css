@@ -580,7 +580,6 @@ footer a{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: minmax(300px, auto);
     grid-auto-flow: dense;
-    grid-area: 10em;
   }
 
   .item-activité{
