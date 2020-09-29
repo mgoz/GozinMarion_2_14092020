@@ -25,156 +25,166 @@
 
 body {
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    background-color: #F2F2F2;
-    margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  margin: 0px;
 }
 
 a {
-  font-family: 'Raleway', sans-serif;
-  color: #0065fc;
-  text-decoration: none;
-  padding: 15px;
+font-family: 'Raleway', sans-serif;
+color: #0065fc;
+text-decoration: none;
+padding: 15px;
 }
 
 p{
-  font-size: 11px;
-  line-height: 1.8em;
+font-size: 11px;
+line-height: 1.8em;
 }
 
 h1{
-  padding-left: 30px;
+padding-left: 30px;
 }
 
 h2{
-  padding-left: 30px;
-  font-size: 20px;
+padding-left: 30px;
+font-size: 20px;
 }
 
 h3{
 
-  font-size: 13px;
+font-size: 13px;
 }
 
 .main{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 section{
-  margin-top: 15px;
-  margin-bottom: 5px;
-  padding-bottom: 20px;
+margin-top: 15px;
+margin-bottom: 5px;
+padding-bottom: 20px;
 }
 
 aside{
-  margin-top: 15px;
-  margin-bottom: 5px;
-  padding-bottom: 20px;
+margin-top: 15px;
+margin-bottom: 5px;
+padding-bottom: 20px;
 }
 
 /* header start */
 
 #header-container p{
 
-  padding-left: 30px;
+padding-left: 30px;
 }
 
+
+
 .menu{
-  padding: 30px 0px 30px 15px;
-  }
-  
-  .logo{
-      width: 100px;
-  }
-  
-  .menu a{
-      float: right;
-      padding: 20px;
-      font-weight: 700;
-  }
+
+padding: 30px 0px 30px 15px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.menu a{
+    float: right;
+    padding: 20px;
+    font-weight: 700;
+}
 
 .navigation{
-  text-align: center;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  }
+text-align: center;
+display: grid;
+grid-template-columns: 50% 50%;
+}
 
-  .navigation a{
-    border-bottom: 1px solid #ccc;
-  }
+.navigation a{
+  border-bottom: 2px solid #ccc;
+  color: #000;
+}
 
-  .navigation .hebergement {
-    border-bottom: 1px solid #0065fc ;
-  }
+.navigation .hebergement {
+  border-bottom: 2px solid #0065fc ;
+  color: #0065fc;
+}
 
-  .navigation a:active{
-    text-decoration: underline #0065fc; 
-  }
+.navigation a:active{
+  text-decoration: underline #0065fc; 
+}
 
-  
+.navigation .inscrire-desktop{
+  display: none;
+}
 
 /* header end */
 
 
 /* button recherche*/
 .topnav {
-  overflow: hidden;
+overflow: hidden;
 }
 
 
 .topnav .search-container {
-  width: 400px;
-  position: relative;
+width: 400px;
+position: relative;
 
 }
 
 .topnav input[type=text] {
-  padding: 15px;
-  margin: 5px 5px 0 30px;
-  font-size: 17px;
-  border: #dbdbdb solid 1px;
-  color:#000;
-  width: 300px;
-  border-radius: 15px;
-  text-align: center;
-  outline-width: 0;
+padding: 15px;
+margin: 5px 5px 0 30px;
+font-size: 17px;
+border: #dbdbdb solid 1px;
+color:#000;
+width: 300px;
+border-radius: 15px;
+text-align: center;
+outline-width: 0;
 }
 
 .topnav input[type=text]:active{
 
-  border: 0px;
+border: 0px;
 }
 
 .fa-search{
 
-  padding: 16px;
-  background: #0065fc;
-  font-size: 20px;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  position: absolute;
-  top: 5px;
-  right: 25px;
+padding: 16px;
+background: #0065fc;
+font-size: 20px;
+color: #fff;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+position: absolute;
+top: 5px;
+right: 25px;
 }
 
 .fa-search:hover{
-  background: #ccc;
+background: #ccc;
 }
 
 .fa-map-marker-alt{
-  color: #000;
-  background-color: #dbdbdb;
-  font-size: 21px;
-  padding: 15px;
-  border-radius: 15px 0 0 15px;
-  position: absolute;
-  margin: 5px 0 0 30px;
+color: #000;
+background-color: #dbdbdb;
+font-size: 21px;
+padding: 15px;
+border-radius: 15px 0 0 15px;
+position: absolute;
+margin: 5px 0 0 30px;
 }
 
+.rechercher{
+display: none;
+}
 /* Fin barre recherche */
 
 
