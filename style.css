@@ -471,8 +471,17 @@ footer li{
 
 @media screen and (min-width : 992px){
 
-  body{
-    margin: 15px;
+  #header-container, .main, #activité{
+    margin: 30px;
+  }
+
+  header{
+    margin: 2px 20px 15px 20px;
+  }
+
+  #header-container p{
+    padding-left: 10px;
+    font-size: 15px;
   }
 
   .main{
@@ -489,9 +498,86 @@ footer li{
     flex-basis: 70%;
   }
 
+  h1{
+    padding-left: 10px;
+  }
+
+  h2{
+    padding-left: 10px;
+  }
+
   h3{
 
     font-size: 15px;
+  }
+
+  /* .menu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 50px;
+    }
+
+  .menu a{
+    position: absolute;
+
+  } */
+
+  .header-menu{
+    display: flex;
+  }
+
+  .menu{
+    padding: 15px 0 0 20px;
+  }
+
+  .menu a{
+    display: none;
+  }
+
+  .filtre-desktop{
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .filtre{
+    padding: 8px 20px 6px 20px;
+    margin: 5px 12px 5px 20px;
+  }
+
+  .icone-filtre{
+    font-size: 20px;
+    height: 19px;
+    width: 18px;
+    padding: 12px 14px 14px 14px;
+  }
+
+  .navigation{
+    display: block;
+    right: 5px;
+    position: absolute;
+    padding-top: 15px;
+  }
+
+  .navigation a{
+    border-top: 2px solid rgb(248, 248, 248);
+    border-bottom: none;
+    margin-left: 30px;
+    color: #000;
+  }
+
+  .navigation .hebergement{
+    border-top: 2px solid #0065fc;
+    border-bottom: none;
+    color: #0065fc;
+  }
+
+  .navigation .inscrire-desktop{
+    border: none;
+    padding-left: 10px;
+    font-weight: 700;
+    color: #0065fc;
+    display: inline;
   }
 
   .container-hebergement{
@@ -612,6 +698,51 @@ footer li{
     height: 200px;
     
   }  
+
+  footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .topnav .search-container{
+    width: 510px;
+  }
+
+  .topnav input[type=text]{
+    width: 400px;
+    text-align: left;
+    padding-left: 60px;
+    margin: 5px 5px 0 10px;
+  }
+
+  .fa-map-marker-alt{
+
+    margin: 5px 0 0 10px;
+  }
+
+  .rechercher{
+    display: block;
+    padding: 16px;
+    background: #0065fc;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    right: 0px;
+  }
+  
+  .rechercher:hover{
+    background: #ccc;
+  }
+
+  .fa-search{
+    display: none !important;
+  }
 
 
 }
