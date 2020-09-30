@@ -604,8 +604,8 @@ footer a{
     max-height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
-    /* grid-auto-flow: dense; */
+    grid-template-rows: repeat(100px, 1fr);
+    grid-auto-flow: dense;
 
   }
 
