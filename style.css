@@ -407,8 +407,12 @@ footer a{
     justify-content: space-evenly;
   }
   .item-hebergement{
-    width: 400px;
+    width: 700px;
     margin: 10px 5px;
+  }
+
+  .item-hebergement p{
+    font-size: 14px;
   }
 
   .container-populaire{
@@ -417,8 +421,29 @@ footer a{
     justify-content: space-evenly;
   }
   .item-populaires{
-    width: 400px;
+    width: 700px;
+    height: 200px;
     margin: 10px 5px;
+  }
+
+  .texte-item-populaire{
+    padding-left: 230px;
+    padding-top: 20px;
+    line-height: 1em;
+  }
+
+  .item-populaires p{
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .item-populaires h3{
+    font-size: 20px;
+  }
+
+  .image-populaire{
+    width: 200px;
+    height: 200px;
   }
 
   .voir-plus a{
@@ -580,6 +605,7 @@ footer a{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-template-rows: minmax(300px, auto);
     grid-auto-flow: dense;
+
   }
 
   .item-activité{
