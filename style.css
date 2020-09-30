@@ -97,16 +97,16 @@ aside{
 /* header end */
 
 /* button recherche*/
-.topnav {
+.searchbar {
   overflow: hidden;
 }
 
-.topnav .search-container {
+.searchbar .search-container {
   width: 400px;
   position: relative;
 }
 
-.topnav input[type=text] {
+.searchbar input[type=text] {
   padding: 15px;
   margin: 5px 5px 0 30px;
   font-size: 17px;
@@ -118,7 +118,7 @@ aside{
   outline-width: 0;
 }
 
-.topnav input[type=text]:active{
+.searchbar input[type=text]:active{
 
   border: 0px;
 }
@@ -165,7 +165,7 @@ aside{
   justify-content: flex-start;
 }
 
-.filtre{
+.filtre-item{
   padding: 6px;
   margin: 5px 8px 5px 20px;
   border: #CFCFCF solid 1px;
@@ -177,11 +177,11 @@ aside{
   position: relative;
 }
 
-.filtre:hover{
+.filtre-item:hover{
   background-color: #DEEBFF;
 }
 
-.filtre p{
+.filtre-item p{
   font-size: 14px;
   margin: 5px;
   padding-left: 40px !important;
@@ -524,12 +524,12 @@ footer a{
     display: none;
   }
 
-  .filtre-desktop{
+  .filtre{
     display: flex;
     margin-top: 30px;
   }
 
-  .filtre{
+  .filtre-item{
     padding: 8px 20px 6px 20px;
     margin: 5px 12px 5px 20px;
   }
@@ -649,7 +649,6 @@ footer a{
     
   }  
 
-
   .item-activité:nth-child(3){
 
     grid-row: 2 /span 1;
@@ -696,11 +695,11 @@ footer a{
     margin: 0;
   }
 
-  .topnav .search-container{
+  .searchbar .search-container{
     width: 510px;
   }
 
-  .topnav input[type=text]{
+  .searchbar input[type=text]{
     width: 400px;
     text-align: left;
     padding-left: 60px;
