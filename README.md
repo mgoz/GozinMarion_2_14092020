@@ -23,4 +23,4 @@ Contraintes techniques
 - La police du site est Raleway.
 - Aucun Framework ne doit être utilisé sur le projet !
 
-Une fois terminé, une publication sur GitLab est nécessaire pour avoir un aperçu immédiat du rendu. 
+Une fois le projet terminé, une publication sur GitLab est nécessaire pour avoir un aperçu immédiat du rendu. 
